@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 13 18:44:17 IST 2018
+da39a3ee5e6b4b0d3255bfef95601890afd80709@85.115.33.150\:80>default-http\://repo.spring.io/libs-release/.lastUpdated=1523625254429
+http\://repo.maven.apache.org/maven2/.lastUpdated=1523625257287
+http\://repo.spring.io/libs-release/.error=Could not transfer artifact org.apache.maven.plugins\:maven-resources-plugin\:jar\:2.6 from/to spring-releases (http\://repo.spring.io/libs-release)\: Failed to transfer file\: http\://repo.spring.io/libs-release/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar. Return code is\: 502 , ReasonPhrase\:Proxy loop.

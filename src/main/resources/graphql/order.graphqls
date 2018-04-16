@@ -1,0 +1,32 @@
+scalar Date
+type Order {
+    id: ID!
+    baseCurrency:String
+    quoteCurrency:String
+    baseAmount:Float
+    quoteAmount:Float
+    senderId:String
+    beneficiaryId:String
+    purpose:String
+    createdAt: String
+    updatedAt: String
+    rate:Float
+    status:String
+    history:[OrderStatus]
+}
+
+type OrderStatus {
+    id: ID!
+    createdAt: String   
+    status:String
+}
+
+ type Query {
+	getOrdersBy(id:Long,status:String, senderId:String, beneficiaryId:String):[Order]
+	getOrderCount(id:Long,status:String, senderId:String, beneficiaryId:String):Long!
+}
+
+ type Mutation {
+    newOrder(baseCurrency:String!,quoteCurrency:String!, baseAmount:Float,senderId:String,beneficiaryId:String,purpose:String) : Order!
+    updateOrderStatus(id:Long!,status:String):Order
+}

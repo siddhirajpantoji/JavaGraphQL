@@ -1,0 +1,7 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Apr 12 20:28:51 IST 2018
+http\://mvnrepository.com/artifact/.error=
+http\://mvnrepository.com/artifact/.lastUpdated=1523545130454
+da39a3ee5e6b4b0d3255bfef95601890afd80709@85.115.33.150\:80>default-http\://repo.spring.io/libs-release/.lastUpdated=1523545129873
+http\://repo.maven.apache.org/maven2/.lastUpdated=1523545131896
+http\://repo.spring.io/libs-release/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:1.5.9.RELEASE from/to spring-releases (http\://repo.spring.io/libs-release)\: Failed to transfer file\: http\://repo.spring.io/libs-release/org/springframework/boot/spring-boot-starter-parent/1.5.9.RELEASE/spring-boot-starter-parent-1.5.9.RELEASE.pom. Return code is\: 502 , ReasonPhrase\:Proxy loop.
