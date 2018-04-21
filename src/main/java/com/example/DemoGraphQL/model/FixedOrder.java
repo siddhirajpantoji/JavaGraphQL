@@ -22,7 +22,6 @@ public class FixedOrder {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	
 	private String baseCurrency;
 
 	private String quoteCurrency;
@@ -45,7 +44,7 @@ public class FixedOrder {
 
 	private String status;
 	
-	@OneToMany(fetch= FetchType.EAGER)
+	@OneToMany(fetch= FetchType.EAGER, mappedBy= "order")
 	private List<OrderStatus> history;
 	
 	@PrePersist
